@@ -1,7 +1,9 @@
 # ERC-Convener-Q.2.-Submission
 I have made use of Python to analyze and demodulate the signal.
 The given original audio was modulated and the image below is the FFT plot obtained.
+
 ![FFT graph](https://github.com/user-attachments/assets/c9268529-e91c-4f7e-b82c-2cf71e8d0ef7)
+
 We can conclude from the graph that the carrier frequency is 10000 Hz (10 kHz)
 
 Demodulation steps:
