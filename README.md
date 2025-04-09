@@ -11,7 +11,7 @@ Demodulation steps:
 
 Step 1: I have loaded the audio to the code.
 
-Step 2: I multiplied the signal with cosine to demodulate. Then "demodulate= signal*carrier". This is the key step. It displaces the desired signal from a noisy signal. We get the demodulated but unfiltered and obtain a plot of it.
+Step 2: I multiplied the signal with cosine to demodulate. Then "demodulate= signal*carrier". This is the key step. It displaces the desired signal from a noisy signal. We get the demodulated but unfiltered and obtain a plot of it. I have also uploaded its audio file named "demod_op.wav"
 
 
 ![demod(unfilt) graph](https://github.com/user-attachments/assets/13bf40b2-7c28-4093-afae-3ac20833ce5f)
@@ -24,7 +24,7 @@ Step 1: Low pass filter allows only low frequencies and obstruct high frequency 
 
 Step 2: With the help of "lowpass" function, clean audio could be obtained (i.e. demod_op_4k.wav). I also explored a bit by changing the values of cutoff frequency back and forth. I observed that lower cutoff frequency removes more of noise than higher one. The original audio already had noise of frequency 9000-11000Hz. When I set cutoff freq to 10000Hz, it was still noisy and sharp but clearer than the original audio. So I tried to reduce the cutoff frequency to 500 Hz and it was much cleaner than before but muffled.
 
-Step 3: A plot of the 3 filtered and demodulated audio signals were obtained
+Step 3: A plot of the 3 filtered and demodulated audio signals were obtained. I have also uploaded their audio files in the format of "filtered_x.wav"
 
 1) Filtered signal with cutoff frequency=4000 Hz
    
